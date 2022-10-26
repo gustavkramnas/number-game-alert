@@ -1,0 +1,52 @@
+body {
+  text-align: center;
+  background-image: url(./bilder/Number-Rain.gif);
+  box-sizing: border-box;
+  cursor: default;
+}
+
+main {
+  margin-top: 10%;
+}
+
+.red-and-blue {
+  box-sizing: border-box;
+  font-weight: bold;
+  border: solid 1px white;
+  padding: 10px;
+  text-align: center;
+  background-color: #750d37;
+  margin-right: 32.5%;
+  margin-left: 32.5%;
+}
+
+h2 {
+  color: white;
+  font-size: 25px;
+  text-decoration: underline red;
+}
+
+.color-btn {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.color-btn button {
+  cursor: pointer;
+  border-color: rgb(72, 231, 239);
+  font-size: 18px;
+}
+
+.start-btn {
+  cursor: pointer;
+  border-color: red;
+  font-size: 24px;
+  margin-top: 60px;
+  text-decoration: underline;
+  background-color: bisque;
+}
+
+.start-btn:hover {
+  font-size: 40px;
+}
